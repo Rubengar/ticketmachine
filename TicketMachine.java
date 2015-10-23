@@ -92,12 +92,17 @@ public class TicketMachine
         
         
     }
-    
+    /**
+     * Manda imprimir por pantalla que metas la cantidad exacta de dinero
+     */
     public void prompt()
     {
         System.out.println("Please, insert the correct amount of money");
     }
     
+    /**
+     * Manda imprimir por pantalla el precio
+     */
     public void showPrice()
     {
         System.out.println("The price of a ticket is " + price + " cents");
