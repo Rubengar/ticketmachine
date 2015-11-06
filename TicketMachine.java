@@ -118,7 +118,7 @@ public class TicketMachine
     
     }
     /**
-     * Vaciar la maquina
+     * Vacia la maquina
      */
     public void empty()
     {
